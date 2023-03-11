@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
+        background:
+    linear-gradient(135deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+    linear-gradient(225deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+    background-color:#708090;
+    background-size: 64px 128px;
+    color: rgb(255, 255, 255);
+   
+}
+
+.container h1 {
+    padding-top: 10px;
+    font-size: 2.5em;
+    font-weight: 500;
+    letter-spacing: 8px;
+}
+
+.container h1 span {
+    font-weight: 800;
+}
+
+.container p {
+    padding-top: 50px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.container input {
+    margin-top: 50px;
+}
+
+.myButton {
+    display: inline-block;
+    text-align: center;
+    background: var(--color);
+    color: var(--bg);
+    font-weight: bold;
+    padding: 1.18em 1.32em 1.03em;
+    line-height: 1;
+    border-radius: 1em;
+    position: relative;
+    min-width: 8.23em;
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: 1.25rem;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #25ba70 5%, #03d66d 100%);
+	background-color:#25ba70;
+    
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.container img {
+    margin-top: 120px;
+    height: 75%;
+}
+
+.love {
+    left: 10px;
+    bottom: 0;
+    font-weight: 200;
+    font-size: 1em;
+    position: absolute;
+}
+
+.img{
+    border-radius: 50%;
+}
+
